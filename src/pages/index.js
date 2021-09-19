@@ -24,14 +24,6 @@ export default function Home() {
         // ================
         />
       </Section>
-
-      <Section bgcolor="rebeccapurple">
-        <Loader size={30} color="yellow" />
-        <Loader size={40} color="red" />
-        <Loader />
-        <Loader size={60} color="blue" />
-        <Loader size={70} color="tomato" />
-      </Section>
     </>
   );
 }

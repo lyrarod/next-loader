@@ -50,8 +50,3 @@ export default function Loader({ size, color }) {
     </>
   );
 }
-
-// Loader.defaultProps = {
-//   size: 50,
-//   color: "silver",
-// };
