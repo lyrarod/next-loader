@@ -18,11 +18,11 @@ export default function Home() {
   return (
     <>
       <Section>
-        <Loader
-        // color="cyan"
-        // size={100}
-        // ================
-        />
+        <Loader />
+        <Loader color="steelblue" size="60" />
+      </Section>
+      <Section bgcolor="rebeccapurple">
+        <Loader color="rebeccapurple" size="80" />
       </Section>
     </>
   );

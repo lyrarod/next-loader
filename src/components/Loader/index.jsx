@@ -16,8 +16,8 @@ const Loading = styled.div.attrs((props) => ({
   size: props.size || 50,
   color: props.color || "#333",
 }))`
-  width: ${({ size }) => size}px;
-  height: ${({ size }) => size}px;
+  width: ${({ size }) => `${size}px`};
+  height: ${({ size }) => `${size}px`};
   border: ${({ size }) => (size * 8) / 100}px solid #9991;
   border-top-color: ${({ color }) => color};
   border-radius: 50%;
